@@ -1,5 +1,5 @@
-import AboutCareImg from "../Assets/hd_tech_img.png";
-import CareVisionImg  from "../Assets/person-using-ar-technology-their-daily-occupation.jpg"
+import AboutCareImg from "../Assets/hd_tech_img.webp";
+import CareVisionImg  from "../Assets/person-using-ar-technology-their-daily-occupation.webp"
 const About = () => {
     return (
         <section id="AboutSection" className="About_section">

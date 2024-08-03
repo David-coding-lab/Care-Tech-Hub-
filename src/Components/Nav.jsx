@@ -1,5 +1,5 @@
 import {useEffect } from 'react'
-import careLogo from '../Assets/care_tech_hub_logo.png'
+import careLogo from '../Assets/care_tech_hub_logo.webp'
 import SideNav from './SideNav'
 
 const Nav = ({showNavLinks, windowWidth, setWindowWidth})=>{

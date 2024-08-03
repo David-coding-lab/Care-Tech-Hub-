@@ -164,7 +164,7 @@ body{
     .hero_section{
         width: flex;
         height: 100vh;
-        background-image: url(../Assets/Technical-Innovation-defination.png);
+        background-image: url(../Assets/Technical-Innovation-defination.webp);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -811,6 +811,9 @@ body{
     }
 }
 @media screen and (max-width: 485px) {
+    .circle-Graphic{
+        width: 50px;
+    }
     .nav_logo_container img{
         width: 70px;
     }
@@ -836,8 +839,9 @@ body{
         height: 450px;
     }
     .contact_body,.contact_header{
-        width: 350px;
+        width: 330px;
         margin-inline: auto;
+        text-align: center;
     }
     .contact_body .inputs{
         flex-direction: column;
@@ -855,9 +859,12 @@ body{
         width: auto;
     }
         .social_contact_title, .social_icons{
-            width: 350px !important;
+            width: 330px !important;
             text-align: center;
             margin-inline: auto !important;
+        }
+        .social_icons ul li img{
+            width: 35px;
         }
     .join_us_sections_detail .contact_header h3{
         font-size: var(--heading-size-4);

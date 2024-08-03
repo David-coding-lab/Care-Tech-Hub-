@@ -1,6 +1,6 @@
 import { Nav } from "./Nav"
 import { ContactComponent } from "./Contact"
-import confusedVector from '../Assets/—Pngtree—confused man thinking of problem_8791349 .png'
+import confusedVector from '../Assets/—Pngtree—confused man thinking of problem_8791349 .webp'
 import careVisionImg from '../Assets/careVisionImg.svg'
 import { socialIcon } from "./Contact"
 const LearnMore = ({windowWidth, setWindowWidth})=>{

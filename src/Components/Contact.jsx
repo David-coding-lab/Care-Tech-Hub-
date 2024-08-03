@@ -1,7 +1,7 @@
-import xIcon from '../Assets/x icon.png'
-import instaIcon from '../Assets/imgbin_instagram-logo-icon-png.png'
-import facebookIcon from '../Assets/1657548367Facebook-logo.png'
-import linkedinIcon from '../Assets/vecteezy_linkedin-logo-png-linkedin-logo-transparent-png-linkedin_23986970.png'
+import xIcon from '../Assets/x icon.webp'
+import instaIcon from '../Assets/imgbin_instagram-logo-icon-png.webp'
+import facebookIcon from '../Assets/1657548367Facebook-logo.webp'
+import linkedinIcon from '../Assets/vecteezy-linkedin-logo-png-linkedin-logo-transparent-png-linkedin-23986970-66ae048f0e528.webp'
 import emailjs from '@emailjs/browser'
 import {useState } from 'react'
 const socialIcon =

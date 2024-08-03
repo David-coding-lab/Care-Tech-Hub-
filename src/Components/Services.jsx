@@ -1,6 +1,6 @@
-import techStackProgramsImg from '../Assets/computer-programming-programming-language-icon-software-technology-icon-210ad0497cff99276d84c71b8357ba5d 1.png'
-import personalDevelopmentImg from '../Assets/—Pngtree—future technology mobile internet business_5753881 1.png'
-import innovationForAllImg from '../Assets/innovation_for_all2 1.png'
+import techStackProgramsImg from '../Assets/computer-programming-programming-language-icon-software-technology-icon-210ad0497cff99276d84c71b8357ba5d 1.webp'
+import personalDevelopmentImg from '../Assets/—Pngtree—future technology mobile internet business_5753881 1.webp'
+import innovationForAllImg from '../Assets/innovation_for_all2 1.webp'
 const Service = ()=>{
     const ServiceDisplay = (props)=>{
         return(
