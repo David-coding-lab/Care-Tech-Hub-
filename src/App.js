@@ -13,6 +13,17 @@ function App() {
   const [showLearnMore, setShowLearnMore] = useState(false)
   const [showNavLinks, setShowNavLinks] = useState(true)
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  // ***Images On load***
+
+  const Imgs = document.querySelectorAll('image')
+  Imgs.forEach(img =>{
+    img.onload = () =>{
+      img.parentElement.classList.add('img_loading');
+      console.log(img.parentElement);
+      
+    }
+  })
   return (
     showLearnMore
     ?

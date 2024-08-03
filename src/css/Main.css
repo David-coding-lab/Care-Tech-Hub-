@@ -760,7 +760,7 @@ body{
 }
 @media screen and (max-width: 665px) {
     .hero_section{
-        height: 80vh;
+        height: 90vh;
     }
         .hero_section h1{
             font-size: var(--heading-size-3);

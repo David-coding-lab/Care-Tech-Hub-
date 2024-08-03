@@ -8,7 +8,7 @@ const socialIcon =
     [
         <li key={xIcon}><a href="">
             <img width='50px' src={xIcon} alt="x" /></a></li>,
-        <li key={instaIcon}><a href="">
+        <li key={instaIcon}><a href="https://www.instagram.com/caretechhub?igsh=YzljYTk1ODg3Zg==">
             <img width='50px' src={instaIcon} alt="instagram" /></a></li>,
         <li key={facebookIcon}><a href="https://www.facebook.com/profile.php?id=61561526923757">
             <img width='50px' src={facebookIcon} alt="facebook" /></a></li>,
