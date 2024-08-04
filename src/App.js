@@ -8,12 +8,12 @@ import "./css/Main.css";
 import  './css/Animation.css'
 import LearnMore from "./Components/LearnMore";
 import { useState } from "react";
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import PrivacyPolicy from "./Components/PrivacyPolicy";
+import NoPage from "./Components/NoPage";
 function App() {
   // states
-  const [showLearnMore, setShowLearnMore] = useState(false)
-  const [showNavLinks, setShowNavLinks] = useState(true)
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
   // ***Images On load***
 
   const Imgs = document.querySelectorAll('image')
@@ -21,21 +21,18 @@ function App() {
     img.onload = () =>{
       img.parentElement.classList.add('img_loading');
       console.log(img.parentElement);
-      
     }
   })
   return (
-    showLearnMore
-    ?
-    <LearnMore windowWidth={windowWidth} setWindowWidth={setWindowWidth}/>
-    :
     <div className={'container'}>
-      <Nav showNavLinks={showNavLinks} windowWidth={windowWidth} setWindowWidth={setWindowWidth}/>
-      <Hero setShowLearnMore={setShowLearnMore}/>
-      <About />
-      <Service />
-      <Contact />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route index element={ <Hero windowWidth={windowWidth} setWindowWidth={setWindowWidth} />} />
+          <Route exact path="/LearnMore" element={ <LearnMore windowWidth={windowWidth} setWindowWidth={setWindowWidth}/>} />
+          <Route path="/PrivacyPolicy" element={ <PrivacyPolicy />} />
+          <Route path="*" element={ <NoPage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
